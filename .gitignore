@@ -1,0 +1,34 @@
+# OSX
+# Ignore osx noise
+.DS_Store
+profile
+
+#Xcode
+# Ignore Xcode noise
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+
+# SVN & CVS
+.svn
+CVS
+
+# Sublime
+# Ignore sublime project files
+*.sublime-project
+*.sublime-workspace
+
+# Bower
+# Ignore the components folder created by bower
+/bower_components
+
+# Grunt
+# Ignore node_modules created by grunt
+/node_modules
+/npm-debug.log
